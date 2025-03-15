@@ -1,0 +1,45 @@
+@media only screen and (max-width: 768px){
+
+    #content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    #network {
+        width: 95vw !important;
+        height: 90vh !important;
+        border: 1px solid black;
+    }
+
+    .btn-group-toggle .button {
+        font-size: 15px; /* Adjust size as needed */
+        padding: 10px 10px; /* Optional: Adjust padding */
+    }
+
+    #Log-span {
+        width: 95vw !important;
+        align-self: center;
+        margin-left: 2%;
+        margin-right: auto;
+    }
+
+    #p2-content {
+        display: flex !important;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        height: 50% !important;
+    }
+
+    #input-box {
+        width: 100vw !important;
+        scale: 0.9 !important;
+    }
+
+    #status-box{
+        padding: 0 !important;
+        width: 100vw !important;
+    }
+}
