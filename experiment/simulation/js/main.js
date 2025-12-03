@@ -29,12 +29,12 @@ const node_ip = {
     0 : "16.1.0.8",
 }
 const node_hostname ={
-    1 : 'cse.nyu.edu',
-    2 : 'dns.nyu.edu',
+    1 : 'cse.iiith.ac.in',
+    2 : 'dns.iiith.ac.in',
     3 : 'h.root-servers.net',
-    4 : 'k.edu-servers.net',
-    5 : 'dns.umass.edu',
-    0 : 'gaia.cs.umass.edu'
+    4 : 'k.in-servers.net',
+    5 : 'dns.iitbhu.ac.in',
+    0 : 'cse.iitbhu.ac.in'
 }
 
 
