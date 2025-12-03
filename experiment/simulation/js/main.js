@@ -285,12 +285,12 @@ function page2(task_no, btns, is_rand = 0){
     const container = document.getElementById('network');
     
     nodes = new vis.DataSet([
-        { id: 0, label: 'gaia.cs.umass.edu\n16.1.0.8', x: 130, y: 0, shape: "image", image: "images/Target.svg", },
-        { id: 1, label: 'Requesting Host\ncse.nyu.edu\n62.181.145.11', x: -150, y: 0, shape: "image", image: "images/host.svg", },
-        { id: 2, label: 'Local DNS \nServer\ndns.nyu.edu\n9.2.12.8', x: -180, y: -150, shape: "image", image:"images/server.svg"},
+        { id: 0, label: 'cse.iitbhu.ac.in\n16.1.0.8', x: 130, y: 0, shape: "image", image: "images/Target.svg", },
+        { id: 1, label: 'Requesting Host\ncse.iiith.ac.in\n62.181.145.11', x: -150, y: 0, shape: "image", image: "images/host.svg", },
+        { id: 2, label: 'Local DNS \nServer\ndns.iiith.ac.in\n9.2.12.8', x: -180, y: -150, shape: "image", image:"images/server.svg"},
         { id: 3, label: 'Root DNS Server\nh.root-servers.net', x: 0, y: -300, shape: "image", image:"images/server.svg" },
-        { id: 4, label: 'TLD DNS Server\nk.edu-servers.net', x: 100, y: -200, shape: "image", image:"images/server.svg" },
-        { id: 5, label: 'Authoritative \nDNS Server\ndns.umass.edu    ', x: 150, y: -110, shape: "image", image:"images/server.svg" },
+        { id: 4, label: 'TLD DNS Server\nk.in-servers.net', x: 100, y: -200, shape: "image", image:"images/server.svg" },
+        { id: 5, label: 'Authoritative \nDNS Server\ndns.iitbhu.ac.in', x: 150, y: -110, shape: "image", image:"images/server.svg" },
         
     ]);
 
