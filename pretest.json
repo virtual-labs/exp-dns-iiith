@@ -1,0 +1,60 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the primary purpose of the Domain Name System (DNS)?",
+      "answers": {
+        "a": "To translate hostnames into IP addresses",
+        "b": "To establish encrypted communication between two hosts",
+        "c": "To store website content",
+        "d": "To control internet traffic flow"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is NOT a type of DNS server?",
+      "answers": {
+        "a": "Root DNS server",
+        "b": "Recursive DNS server",
+        "c": "Top-Level Domain (TLD) DNS server",
+        "d": "Firewall DNS server"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which DNS query type allows the server to take full responsibility for finding the answer?",
+      "answers": {
+        "a": "Iterative",
+        "b": "Recursive",
+        "c": "Authoritative",
+        "d": "Hierarchical"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which DNS record type is used to map a hostname to an IP address?",
+      "answers": {
+        "a": "CNAME",
+        "b": "NS",
+        "c": "A",
+        "d": "MX"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the function of a CNAME record in DNS?",
+      "answers": {
+        "a": "It maps a domain name to another domain name",
+        "b": "It specifies a mail exchange server",
+        "c": "It translates IP addresses to hostnames",
+        "d": "It provides authoritative DNS information"
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    }
+  ]  
+}

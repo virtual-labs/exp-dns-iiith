@@ -1,0 +1,1 @@
+This module explains the working of **Domain Name System** in Computer Networks. It is an application layer protocol which provides directory service to translate hostnames to IP Addresses.
