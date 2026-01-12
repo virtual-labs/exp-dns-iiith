@@ -2,38 +2,59 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which DNS server is responsible for handling domain extensions like '.com' and '.org'?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Root DNS server",
+        "b": "Top-Level Domain (TLD) DNS server",
+        "c": "Authoritative DNS server",
+        "d": "Recursive DNS server"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the primary role of an authoritative DNS server?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To resolve all DNS queries from clients",
+        "b": "To store and provide final IP resolutions for domains",
+        "c": "To act as a backup for the root DNS servers",
+        "d": "To manage internet traffic congestion"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What does the TTL (Time-To-Live) field in a DNS record specify?",
+      "answers": {
+        "a": "The time after which the DNS record expires",
+        "b": "The priority of the DNS query",
+        "c": "The security level of a DNS response",
+        "d": "The number of recursive queries allowed"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following best describes an iterative DNS query?",
+      "answers": {
+        "a": "The server handles the entire query process and returns the final answer",
+        "b": "The server refers the client to another DNS server instead of resolving it itself",
+        "c": "The server provides encrypted responses for enhanced security",
+        "d": "The server caches the results for permanent storage"
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which protocol is used by DNS to communicate over the network?",
+      "answers": {
+        "a": "TCP",
+        "b": "UDP",
+        "c": "Both TCP and UDP",
+        "d": "ICMP"
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     }
   ]
 }
